@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Bike motogp = new Bike();
         motogp.changeSpeed(1000);
-        motogp.gearChange(5);
+        motogp.gearChange(2);
         motogp.printStates();
 
-        Car ferrari = new Car(6, 2000);
+        Car ferrari = new Car(3, 2000);
         ferrari.changeSpeed(200);
         ferrari.gearChange(6);
         ferrari.printStates();
