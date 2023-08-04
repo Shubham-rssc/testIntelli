@@ -20,7 +20,7 @@ public class Car implements Vehicle{
     }
 
     public void printStates(){
-        System.out.println("Gear Number: " + gearNumber + " Speed Count: " + speedCount);
+        System.out.println("Gear Number = " + gearNumber + " Speed Count = " + speedCount);
     }
 
 }
