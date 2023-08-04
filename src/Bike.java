@@ -9,4 +9,8 @@ public class Bike implements Vehicle{
     public void changeSpeed(int speedCount){
         this.speedCount = speedCount;
     }
+
+    public void printStates(){
+        System.out.println("Gear Number: " + gearNumber + " Speed Count: " + speedCount);
+    }
 }
