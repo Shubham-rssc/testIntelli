@@ -10,3 +10,4 @@ public class Bike implements Vehicle{
         this.speedCount = speedCount;
     }
 }
+
