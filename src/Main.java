@@ -3,11 +3,11 @@
 public class Main {
     public static void main(String[] args) {
         Bike motogp = new Bike();
-        motogp.changeSpeed(100);
+        motogp.changeSpeed(1000);
         motogp.gearChange(5);
         motogp.printStates();
 
-        Car ferrari = new Car(6, 200);
+        Car ferrari = new Car(6, 2000);
         ferrari.changeSpeed(200);
         ferrari.gearChange(6);
         ferrari.printStates();
